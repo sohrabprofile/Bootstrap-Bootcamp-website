@@ -1,0 +1,40 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.h1 {
+    margin-top: 4rem;
+}
+
+.p {
+    width: 20rem;
+    margin-right: 20rem;
+}
+
+.alinks {
+    color: white;
+    opacity: 0.8;
+}
+
+.alinks:hover {
+    color: rgb(101, 101, 188);
+    opacity: 0.8;
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.card-items {
+    margin-bottom: 3.4rem;
+    padding-top: 0%;
+}
+
+.boxes-card {
+    height: 90%;
+    width: 90%;
+}
